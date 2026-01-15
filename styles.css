@@ -35,6 +35,22 @@ body{
   grid-template-columns: 340px 1fr;
   min-height: 100vh;
 }
+/* Prevent tap-to-zoom / text selection on controls (mobile) */
+.stepBtn,
+#rollBtn,
+#resetBtn,
+button{
+  touch-action: manipulation;          /* stops double-tap zoom */
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* If your count pill is selectable, stop that too */
+.countPill{
+  user-select: none;
+  -webkit-user-select: none;
+}
 
 /* Sidebar parchment */
 .sidebar{

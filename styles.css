@@ -626,7 +626,7 @@ button:disabled{ opacity: 0.5; cursor:not-allowed; }
     height: 48px;
     border-radius: 12px;
   }
-  .pip{ width: 6px; height: 6px; }
+  .pip{ width: 5px; height: 5px; }
   .face .xMark{ font-size: 22px; }
 }
 

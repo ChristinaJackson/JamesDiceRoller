@@ -358,19 +358,19 @@ button:disabled{ opacity: 0.5; cursor:not-allowed; }
 }
 
 .pips{
-  width: 70%;
-  height: 70%;
+  width: 62%;
+  height: 64%;
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 6px;
+  gap: 5px;
   align-items:center;
   justify-items:center;
 }
 
 .pip{
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 999px;
   background: rgba(255,255,255,0.95);
   opacity: 0.95;
@@ -464,6 +464,7 @@ button:disabled{ opacity: 0.5; cursor:not-allowed; }
 .face{
   transition: transform .10s ease, filter .10s ease;
   margin-bottom: 14px;
+  place-items: center;
 }
 
 .face.rerollable:hover{

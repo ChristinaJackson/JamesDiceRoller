@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Roller for James</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+  <aside class="sidebar">
+    <div class="title">
+      <h1>Dice Roller for James</h1>
+<!--       <p>Set how many dice to roll per color (0–4), then roll once for the turn.</p> -->
+    </div>
+
+    <div id="controls" class="controls"></div>
+
+    <div class="actionBar">
+      <button id="rollBtn" class="primary" type="button">Roll</button>
+      <button id="resetBtn" type="button">Reset</button>
+    </div>
+
+    <div class="hint" id="hint">
+      Tip: Set dice counts, then roll.
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="turnHeader">
+  <h2>Current Turn Results</h2>
+</div>
+<div class="statusLine" id="statusLine">
+</div>
+
+
+    <section id="results" class="results"></section>
+  </main>
+</div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
